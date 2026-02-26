@@ -27,7 +27,7 @@ const Home = () => {
             </button>
             <button className="border border-emerald-500 text-emerald-500 px-6 py-3 uppercase hover:bg-emerald-500/10 transition-all">
               <a href="/resume.pdf" download="Shivam_Kumar's_resume.pdf">
-                View Specs (Resume)
+                View Specs (Resume) download
               </a>
             </button>
           </div>
