@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -22,9 +23,7 @@ const Home = () => {
           
           <div className="flex gap-4">
             <button className="bg-emerald-500 text-slate-950 font-bold px-6 py-3 uppercase hover:bg-emerald-400 hover:scale-105 transition-all">
-              <a href="/portfolio">
-                  Start Mission (Portfolio)
-              </a>
+              <Link to="/portfolio" className="hover:underline">Start Mission (Portfolio)</Link>
             </button>
             <button className="border border-emerald-500 text-emerald-500 px-6 py-3 uppercase hover:bg-emerald-500/10 transition-all">
               <a href="/resume.pdf" download="Shivam_Kumar's_resume.pdf">
