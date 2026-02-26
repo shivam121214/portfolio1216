@@ -15,7 +15,7 @@ const Home = () => {
             [ System Ready: Player_01 ]
           </p>
           <h1 className="text-5xl md:text-7xl font-black text-white mb-4 uppercase italic">
-            Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Name</span>
+            Shivam <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Kumar</span>
           </h1>
           <h2 className="text-xl md:text-2xl text-slate-400 mb-8 border-l-4 border-emerald-500 pl-4">
             Level 20 Full-Stack Developer | CSE Year 3
